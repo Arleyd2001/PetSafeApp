@@ -50,7 +50,7 @@ const UserProfile = () => {
         <div className="flex items-center justify-center lg:w-1/2">
           <div>
             <div className="flex items-center justify-center lg:w-10/12">
-              <img src="/perfildog.png" className="rounded-full w-[800px] lg:w-[900px] object-cover" />
+              <img src="/as.png" className="rounded-full w-[800px] lg:w-[900px] object-cover" />
             </div>
           </div>
         </div>
@@ -83,6 +83,11 @@ const UserProfile = () => {
             <label className="block text-gray-700 mb-2">Correo electrónico</label>
             <input type="email" className="input input-primary form-input w-full border rounded-md px-2 py-2" value={data.Correo} readOnly />
           </div>
+          <div className="mb-4">
+            <label className="block text-gray-700 mb-2">Descripcion</label>
+            <input type="text" className="input input-primary form-input w-full border rounded-md px-2 py-2" value={data.Descripcion} readOnly />
+          </div>
+          
         </form>
       </Section>
     </>

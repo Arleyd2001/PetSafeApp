@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import Image11 from "@/assets/slider/img11.png";
+import Image11 from "@/assets/slider/img6.png";
 import Image7 from "@/assets/slider/img7.png";
 import Image8 from "@/assets/slider/img8.png";
 import Image9 from "@/assets/slider/img9.png";
