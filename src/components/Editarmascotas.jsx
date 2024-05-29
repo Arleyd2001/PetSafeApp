@@ -128,7 +128,7 @@ const EditarMascota = () => {
           <label className="ml-4">Descripcion</label>
           <input
             type="text"
-            className="input input-primary w-full p-20"
+            className="input input-primary w-full p-10"
             name="Descripcion"
             onChange={(e) => setDescripcion(e.target.value)}
             value={Descripcion}
