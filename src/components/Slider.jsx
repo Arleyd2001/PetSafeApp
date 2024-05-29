@@ -110,18 +110,18 @@ const Slider = () => {
             left: 0,
             zIndex: -1, // Coloca el gradiente detrás del contenido
           }}
-        ></div>
-        <div className=" ml-40">
-          <p className="font-bold text-7xl max-w-[1000px] mb-6">
-            {slides[currentIndex].name}
-          </p>
-          <p className="max-w-[500px]">{slides[currentIndex].description}</p>
-          <div className="mt-6 flex items-center gap-2 hover:text-primary">
-            <p className="uppercase font-bold "></p>
-            <BsChevronCompactRight />
+          ></div>
+          <div className=" ml-0">
+            <p className="font-bold text-7xl max-w-[1000px] mb-6">
+              {slides[currentIndex].name}
+            </p>
+            <p className="max-w-[500px]">{slides[currentIndex].description}</p>
+            <div className="mt-6 flex items-center gap-2 hover:text-primary">
+              <p className="uppercase font-bold "></p>
+              <BsChevronCompactRight />
+            </div>
           </div>
         </div>
-      </div>
 
       {/* Flechas de navegación */}
       <div

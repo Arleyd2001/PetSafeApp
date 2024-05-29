@@ -45,7 +45,7 @@ const RegistroMascotas = ({ email }) => {
         Descripcion,
         email: email || Correo, // Usa el email prop si está definido, sino usa Correo del estado
       });
-      setQrLink(`https://pet-safe-et8xffutu-arleyd2001s-projects.vercel.app/Mascotas/${id}`); // Actualiza con tu URL base
+      setQrLink(`https://pet-safe-app-git-main-arleyd2001s-projects.vercel.app/Mascotas/${id}`); // Actualiza con tu URL base
       toast.success("Procesando Solicitud...");
     } catch (error) {
       console.error("Error al guardar la información: ", error);
@@ -111,7 +111,7 @@ const RegistroMascotas = ({ email }) => {
             <label className="ml-4">Descripcion</label>
             <input
               type="text"
-              className="input input-primary w-full p-20"
+              className="input input-primary w-full p-10"
               name="Descripcion"
               onChange={(e) => setDescripcion(e.target.value)}
               value={Descripcion}

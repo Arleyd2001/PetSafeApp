@@ -86,7 +86,9 @@ const Navbar = ({ setUser, user }) => {
                     user ? "" : "hidden"
                   }`}
                 >
+
                   Lista
+                  
                 </li>
               </Link>
               <Link to="/login">
@@ -98,13 +100,6 @@ const Navbar = ({ setUser, user }) => {
                   Login
                 </li>
               </Link>
-              {isUserInUsuarios && (
-                <Link to="/Register">
-                  <li className="p-4 uppercase duration-300 hover:text-primary hover:scale-110 cursor-pointer">
-                    Register
-                  </li>
-                </Link>
-              )}
               <li
                 onClick={logout}
                 className={`p-4 uppercase duration-300 hover:text-primary hover:scale-110 cursor-pointer ${
@@ -162,15 +157,7 @@ const Navbar = ({ setUser, user }) => {
             </li>
           </Link>
 
-          <Link onClick={() => setIsMenuShown(!isMenuShown)} to="/register">
-            <li
-              className={`p-4 uppercase cursor-pointer duration-300 hover:text-thPrimary ${
-                user ? "" : "hidden"
-              }`}
-            >
-              Register
-            </li>
-          </Link>
+  
 
 
           <Link onClick={() => setIsMenuShown(!isMenuShown)} to="/RegistroMascotas">
